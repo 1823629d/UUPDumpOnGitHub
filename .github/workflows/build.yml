@@ -10,7 +10,7 @@ on:
             
 jobs:
   build:
-    runs-on: blacksmith-32vcpu-windows-2025
+    runs-on: namespace-profile-default
 
     steps:
       - uses: actions/checkout@v4
