@@ -10,7 +10,7 @@ on:
             
 jobs:
   build:
-    runs-on: windows-2025
+    runs-on: uup
 
     steps:
       - uses: actions/checkout@v4
